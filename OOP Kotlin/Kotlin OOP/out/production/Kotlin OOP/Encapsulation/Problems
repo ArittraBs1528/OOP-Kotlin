@@ -1,0 +1,8 @@
+Implement a banking system that supports multiple account types such as savings and checking accounts.
+ Each account should have functionalities to deposit, withdraw, and check balance. Additionally,
+the system should be able to calculate and apply interest rates for savings accounts.
+
+Also using solid property
+Open for extention and closed for modification
+
+now we can extend more account like checkingAccount
