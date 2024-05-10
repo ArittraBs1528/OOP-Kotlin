@@ -1,14 +1,15 @@
-import Abstraction.Engine
+open class CarEngine(private var fuel: Double) {
 
 
-open class CarEngine() : Engine {
-    override fun startEngine(fuel:Double): Boolean {
-
+    open fun startEngine(): Boolean {
         return startTurbine(fuel)
     }
 
+
     private fun startTurbine(fuel: Double): Boolean {
 
-        return true
+        if (fuel > 1200)
+            return true
+        else return false
     }
 }
